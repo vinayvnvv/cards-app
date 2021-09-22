@@ -1,6 +1,8 @@
 :root {
     --mobile: 375px;
     --desktop: 960px;
+    --primary: #72c3dc;
+    --primary-dark: #2d8cac
 }
 
 html, body {
@@ -50,16 +52,16 @@ html, body {
     text-decoration: none;
     outline: none;
     color: #fff;
-    background-color: #72c3dc;
+    background-color: var(--primary);
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #2d8cac;
+    box-shadow: 0 9px var(--primary-dark);
     margin: 0 7px;
 }
 
 .app > .actions > .btn:active {
-  background-color: #2d8cac;
-  box-shadow: 0 5px #2d8cac;
+  background-color: var(--primary-dark);
+  box-shadow: 0 5px var(--primary-dark);
   transform: translateY(4px);
 }
 
