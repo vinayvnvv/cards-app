@@ -61,11 +61,12 @@ html, body {
 /* handle mobile devices */
 @media only screen and (max-width: 375px) {
     .app {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }  
     .app > .container {
         width: 100%;
         flex-direction: column;
+        margin-top: 31px;
     }
     .app > .container > .card-item {
         width: 100%;
