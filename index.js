@@ -50,6 +50,7 @@ function App() { // App login class
             ele.innerHTML = this.cards[i];
             ele.style.backgroundColor = colors[this.cards[i]]
             ele.style.borderColor = colors[this.cards[i]]
+            ele.style.animationDelay = ((i+1)/50) + 's'; // animation handle
             this.containerRef.appendChild(ele)
         }
     }
